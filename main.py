@@ -64,7 +64,7 @@ def main():
             file_name = f"{book.code}-{chapter_number}.txt"
             print(file_name)
 
-            page_path = f"/acf/{book.code}/{chapter}"
+            page_path = f"/tav/{book.code}/{chapter}"
 
             page_content = session_manager.fetch_page(page_path)
 
