@@ -35,3 +35,12 @@ Este projeto está em desenvolvimento. A tradução e seus recursos são revisad
 
 **Tradução Aliança Viva — TAV**  
 *Uma tradução para comunicar a Palavra com clareza e fidelidade.*
+
+---
+## Licença
+
+Este projeto é disponibilizado sob a **Creative Commons Zero v1.0 Universal (CC0 1.0)**.
+
+Na medida permitida pela lei, os direitos autorais sobre o conteúdo deste projeto são renunciados, permitindo que o material seja copiado, modificado, distribuído e utilizado para qualquer finalidade, inclusive comercial, sem necessidade de solicitar permissão.
+
+Para mais informações, consulte o arquivo [`LICENSE`](LICENSE).
