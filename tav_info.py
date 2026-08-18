@@ -1,81 +1,52 @@
-"""
-Tradução Aliança Viva (TAV)
-===========================
+# Tradução Aliança Viva (TAV)
+# Informações da tradução
 
-Informações oficiais da tradução.
+TRANSLATION_NAME = "Tradução Aliança Viva"
+ABBREVIATION = "TAV"
 
-Nome: Tradução Aliança Viva
-Sigla: TAV
-Idioma: Português
-Testamento: Antigo e Novo Testamento
-Tipo: Tradução bíblica contemporânea
+LANGUAGE = "Português"
+TESTAMENT = "Antigo e Novo Testamento"
 
-Descrição:
-A Tradução Aliança Viva (TAV) é uma tradução contemporânea da Bíblia
-em português, desenvolvida para comunicar fielmente o sentido das
-Escrituras em linguagem clara, natural e acessível.
+DESCRIPTION = (
+    "A Tradução Aliança Viva (TAV) é uma tradução contemporânea "
+    "da Bíblia em português, desenvolvida para comunicar fielmente "
+    "o sentido das Escrituras com linguagem clara, natural e acessível."
+)
 
-Princípios:
-- Fidelidade ao sentido das Escrituras
-- Linguagem contemporânea e natural
-- Clareza e precisão
-- Consistência terminológica
-- Respeito ao contexto literário e histórico
-- Preservação da mensagem teológica
+PRINCIPLES = [
+    "Fidelidade ao sentido das Escrituras",
+    "Linguagem contemporânea e natural",
+    "Clareza e precisão",
+    "Consistência terminológica",
+    "Respeito ao contexto bíblico",
+    "Preservação da mensagem teológica",
+]
 
-Objetivo:
-Comunicar a mensagem das Escrituras com fidelidade, clareza e
-naturalidade, tornando o texto bíblico acessível ao leitor
-contemporâneo.
+LICENSE = "CC0 1.0 Universal"
 
-Formato:
-USFM
+FORMAT = "USFM"
 
-Licença:
-Creative Commons Zero v1.0 Universal (CC0 1.0)
+PROJECT = "Tradução Aliança Viva"
 
-Projeto:
-Tradução Aliança Viva
-
-Copyright:
-CC0 1.0 Universal
-"""
-
-
-TRANSLACAO = {
-    "nome": "Tradução Aliança Viva",
-    "sigla": "TAV",
-    "idioma": "Português",
-    "tipo": "Tradução bíblica contemporânea",
-    "formato": "USFM",
-    "licenca": "CC0 1.0 Universal",
-    "descricao": (
-        "Tradução contemporânea da Bíblia em português, "
-        "desenvolvida para comunicar fielmente o sentido das "
-        "Escrituras em linguagem clara, natural e acessível."
-    ),
-    "objetivo": (
-        "Comunicar a mensagem das Escrituras com fidelidade, "
-        "clareza e naturalidade."
-    ),
-}
+SLOGAN = "Fidelidade ao texto. Clareza para o leitor. Vida na Palavra."
 
 
 def mostrar_informacoes():
-    print("TRADUÇÃO ALIANÇA VIVA")
-    print("=" * 30)
-    print(f"Nome: {TRANSLACAO['nome']}")
-    print(f"Sigla: {TRANSLACAO['sigla']}")
-    print(f"Idioma: {TRANSLACAO['idioma']}")
-    print(f"Tipo: {TRANSLACAO['tipo']}")
-    print(f"Formato: {TRANSLACAO['formato']}")
-    print(f"Licença: {TRANSLACAO['licenca']}")
+    print(TRANSLATION_NAME)
+    print(f"Sigla: {ABBREVIATION}")
+    print(f"Idioma: {LANGUAGE}")
+    print(f"Testamentos: {TESTAMENT}")
+    print(f"Licença: {LICENSE}")
+    print(f"Formato: {FORMAT}")
     print()
     print("Descrição:")
-    print(TRANSLACAO["descricao"])
+    print(DESCRIPTION)
     print()
-    print("Objetivo:")
-    print(TRANSLACAO["objetivo"])
+    print("Princípios:")
+    for principio in PRINCIPLES:
+        print(f"- {principio}")
+    print()
+    print(SLOGAN)
 
 
 if __name__ == "__main__":
